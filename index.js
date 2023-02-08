@@ -3,9 +3,14 @@
     numz: {},
     phyz: {
       /**
-       *
-       * @param {object} obj1 - An object
-       * @param {object} obj2 - An object
+       * 
+       * @param {object} pointA - The first point
+       * @param {object} pointB - The second point
+       * @param {number} pointB.x - Point B's X value
+       * @param {number} pointB.y - Point B's Y value
+       * @param {number} pointA.x - Point A's X value
+       * @param {number} pointA.y - Point A's Y value 
+       * @returns 
        */
       getDistance(pointA, pointB) {
         const distanceX = pointB.x - pointA.x,
