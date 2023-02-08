@@ -10,7 +10,7 @@
        * @param {number} pointB.y - Point B's Y value
        * @param {number} pointA.x - Point A's X value
        * @param {number} pointA.y - Point A's Y value 
-       * @returns 
+       * @returns {number} - Returns the distance between point A and point B
        */
       getDistance(pointA, pointB) {
         const distanceX = pointB.x - pointA.x,
