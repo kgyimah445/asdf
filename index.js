@@ -85,4 +85,3 @@
   };
 })(window, window._);
 
-asdf.phyz.calcDistanc;
