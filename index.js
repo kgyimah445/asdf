@@ -1,7 +1,7 @@
 (function (window, asdf) {
   window.asdf = window.asdf || {
     numz: {
-      
+      // :)
       /**
              * Turns degrees into radians
              * @param {number} degrees 
