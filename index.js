@@ -1,4 +1,4 @@
-(function (window, _) {
+(function (window, asdf) {
   window.asdf = window.asdf || {
     numz: {
       
